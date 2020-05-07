@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		501B03152462599D008B083C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501B03142462599D008B083C /* AppDelegate.swift */; };
+		501B03172462599D008B083C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501B03162462599D008B083C /* SceneDelegate.swift */; };
+		501B03192462599D008B083C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501B03182462599D008B083C /* ViewController.swift */; };
+		501B031C2462599D008B083C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501B031A2462599D008B083C /* Main.storyboard */; };
+		501B031F2462599D008B083C /* SuperPassword.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 501B031D2462599D008B083C /* SuperPassword.xcdatamodeld */; };
+		501B0321246259A4008B083C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 501B0320246259A4008B083C /* Assets.xcassets */; };
+		501B0324246259A4008B083C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501B0322246259A4008B083C /* LaunchScreen.storyboard */; };
+		50395CC324637211006CEF23 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50395CC224637211006CEF23 /* PasswordViewController.swift */; };
+		50395CC524637AF2006CEF23 /* SecurotyTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50395CC424637AF2006CEF23 /* SecurotyTipsViewController.swift */; };
+		50395CC724637C06006CEF23 /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50395CC624637C06006CEF23 /* PasswordGenerator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		501B03112462599D008B083C /* SuperPassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperPassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		501B03142462599D008B083C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		501B03162462599D008B083C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		501B03182462599D008B083C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		501B031B2462599D008B083C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		501B031E2462599D008B083C /* SuperPassword.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SuperPassword.xcdatamodel; sourceTree = "<group>"; };
+		501B0320246259A4008B083C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		501B0323246259A4008B083C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		501B0325246259A4008B083C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50395CC224637211006CEF23 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		50395CC424637AF2006CEF23 /* SecurotyTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurotyTipsViewController.swift; sourceTree = "<group>"; };
+		50395CC624637C06006CEF23 /* PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		501B030E2462599D008B083C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		501B03082462599D008B083C = {
+			isa = PBXGroup;
+			children = (
+				501B03132462599D008B083C /* SuperPassword */,
+				501B03122462599D008B083C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		501B03122462599D008B083C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				501B03112462599D008B083C /* SuperPassword.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		501B03132462599D008B083C /* SuperPassword */ = {
+			isa = PBXGroup;
+			children = (
+				501B03142462599D008B083C /* AppDelegate.swift */,
+				501B03162462599D008B083C /* SceneDelegate.swift */,
+				501B03182462599D008B083C /* ViewController.swift */,
+				501B031A2462599D008B083C /* Main.storyboard */,
+				50395CC624637C06006CEF23 /* PasswordGenerator.swift */,
+				50395CC424637AF2006CEF23 /* SecurotyTipsViewController.swift */,
+				50395CC224637211006CEF23 /* PasswordViewController.swift */,
+				501B0320246259A4008B083C /* Assets.xcassets */,
+				501B0322246259A4008B083C /* LaunchScreen.storyboard */,
+				501B0325246259A4008B083C /* Info.plist */,
+				501B031D2462599D008B083C /* SuperPassword.xcdatamodeld */,
+			);
+			path = SuperPassword;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		501B03102462599D008B083C /* SuperPassword */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 501B0328246259A4008B083C /* Build configuration list for PBXNativeTarget "SuperPassword" */;
+			buildPhases = (
+				501B030D2462599D008B083C /* Sources */,
+				501B030E2462599D008B083C /* Frameworks */,
+				501B030F2462599D008B083C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperPassword;
+			productName = SuperPassword;
+			productReference = 501B03112462599D008B083C /* SuperPassword.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		501B03092462599D008B083C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Albert;
+				TargetAttributes = {
+					501B03102462599D008B083C = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 501B030C2462599D008B083C /* Build configuration list for PBXProject "SuperPassword" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 501B03082462599D008B083C;
+			productRefGroup = 501B03122462599D008B083C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				501B03102462599D008B083C /* SuperPassword */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		501B030F2462599D008B083C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501B0324246259A4008B083C /* LaunchScreen.storyboard in Resources */,
+				501B0321246259A4008B083C /* Assets.xcassets in Resources */,
+				501B031C2462599D008B083C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		501B030D2462599D008B083C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501B031F2462599D008B083C /* SuperPassword.xcdatamodeld in Sources */,
+				50395CC324637211006CEF23 /* PasswordViewController.swift in Sources */,
+				501B03192462599D008B083C /* ViewController.swift in Sources */,
+				501B03152462599D008B083C /* AppDelegate.swift in Sources */,
+				50395CC524637AF2006CEF23 /* SecurotyTipsViewController.swift in Sources */,
+				501B03172462599D008B083C /* SceneDelegate.swift in Sources */,
+				50395CC724637C06006CEF23 /* PasswordGenerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		501B031A2462599D008B083C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				501B031B2462599D008B083C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		501B0322246259A4008B083C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				501B0323246259A4008B083C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		501B0326246259A4008B083C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		501B0327246259A4008B083C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		501B0329246259A4008B083C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7WV88HTE4;
+				INFOPLIST_FILE = SuperPassword/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.albert.SuperPassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		501B032A246259A4008B083C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7WV88HTE4;
+				INFOPLIST_FILE = SuperPassword/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.albert.SuperPassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		501B030C2462599D008B083C /* Build configuration list for PBXProject "SuperPassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501B0326246259A4008B083C /* Debug */,
+				501B0327246259A4008B083C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		501B0328246259A4008B083C /* Build configuration list for PBXNativeTarget "SuperPassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501B0329246259A4008B083C /* Debug */,
+				501B032A246259A4008B083C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		501B031D2462599D008B083C /* SuperPassword.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				501B031E2462599D008B083C /* SuperPassword.xcdatamodel */,
+			);
+			currentVersion = 501B031E2462599D008B083C /* SuperPassword.xcdatamodel */;
+			path = SuperPassword.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 501B03092462599D008B083C /* Project object */;
+}
